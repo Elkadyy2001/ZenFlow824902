@@ -11,16 +11,16 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: ruby/setup-ruby@v1
+    # - uses: ruby/setup-ruby@v1
     
-      with:
-              ruby-version: '3.3'
+    #   with:
+    #           ruby-version: '3.3'
               
 
-    - uses: tashi-iu/setup-fastlane@v1
-      with:
-    # Optional. Default: 'latest'
-            version: 'latest'
+    # - uses: tashi-iu/setup-fastlane@v1
+    #   with:
+    # # Optional. Default: 'latest'
+    #         version: 'latest'
     - uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.0.x
